@@ -159,4 +159,50 @@ header div > a, .servicos div > a {
     margin: 0 auto;
 }
 
+.curiosidades {
+    background: url(../img/bg-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.curiosidades h2 {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.curiosidades > div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.curiosidades div > p {
+    font-size: 250%;
+    color: yellow;
+    font-weight: 700;
+    margin: 0;
+}
+
+.curiosidades span {
+    color: white;
+
+}
+
+
+.contato h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.contato p {
+    font-family: 'Flamenco', cursive, Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    margin-top: 1%;
+    font-weight: bold;
+    text-align: center;
+}

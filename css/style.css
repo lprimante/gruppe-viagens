@@ -1,3 +1,5 @@
+
+/* Condições Gerais */
 * {
     font-family: 'Asap', arial, helvetica, sans-serif;
 }
@@ -9,6 +11,8 @@ h2 {
 body {
     margin: 0;
 }
+
+/* Cabeçalho */
 
 header {
     min-height: 90vh;
@@ -72,6 +76,8 @@ header div > a, .servicos div > a {
     margin: 0 auto;
 }
 
+/* Seção Sobre */
+
 .sobre {
     margin: 0 auto;
     width: 50%;
@@ -83,7 +89,7 @@ header div > a, .servicos div > a {
     justify-content: space-around;    
 }
 
-.sobre div img, {
+.sobre div img {
     display: inline-block;
 }
 
@@ -119,6 +125,8 @@ header div > a, .servicos div > a {
     padding-top: 2%;
     font-size: 110%;
 }
+
+/* Seção Serviços */
 
 .servicos {
     min-height: 90vh;
@@ -159,6 +167,8 @@ header div > a, .servicos div > a {
     margin: 0 auto;
 }
 
+/* Seção Curiosidades */
+
 .curiosidades {
     background: url(../img/bg-numeros.png);
     background-repeat: no-repeat;
@@ -195,6 +205,8 @@ header div > a, .servicos div > a {
     width: 60%;
 }
 
+/* Seção Contato */
+
 .contato {
     background-color: rgba(211, 211, 211, 0.507);
     padding: 3%;
@@ -219,7 +231,6 @@ header div > a, .servicos div > a {
     max-width: 450px;
     
 }
-
 
 .pt1 {
     display: flex;
@@ -273,6 +284,8 @@ header div > a, .servicos div > a {
     font-size: 120%
 }
 
+/* Seção Newsletter */
+
 .news {
     background-color:yellow;
     padding: 3% 0;
@@ -320,6 +333,8 @@ header div > a, .servicos div > a {
     text-transform: uppercase;
     font-size: 120%
 }
+
+/* Seção Footer */
 
 footer {
     background-color: gray;
